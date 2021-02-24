@@ -1,0 +1,21 @@
+{
+  "name": "weather-journal-app",
+  "version": "1.0.0",
+  "description": "Obtain Weather Information",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adlymagdy/weather-journal-app.git"
+  },
+  "author": "Adly Magdy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adlymagdy/weather-journal-app/issues"
+  },
+  "homepage": "https://github.com/adlymagdy/weather-journal-app#readme",
+  "keywords": []
+}

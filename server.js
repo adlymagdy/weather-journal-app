@@ -37,7 +37,8 @@ function listening() {
 
 // POST Callback to debug
 function callback(req, res) {
-  res.send('Weather received')
+  projectData.temp = req.body.temp;
+  projectData.userResponse = req.feelings;
 }
 
 // Initialize all route with a callback function
